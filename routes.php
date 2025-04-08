@@ -1,3 +1,3 @@
 <?php
 
-$r->get('/api/produtos', __DIR__ . '/api/products.php');
+$r->addRoute('GET', '/api/products', __DIR__ . '/api/products.php');
