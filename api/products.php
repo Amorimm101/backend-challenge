@@ -4,11 +4,23 @@ require_once __DIR__ . '/../lib/Response.php';
 $products = require __DIR__ . '/../data/productsData.php';
 
 function removeAccents($string) {
-    return strtr(utf8_decode($string),
-        utf8_decode('áàâãäçéèêëíìîïñóòôõöúùûüÁÀÂÃÄÇÉÈÊËÍÌÎÏÑÓÒÔÕÖÚÙÛÜ'),
-        'aaaaaceeeeiiiinooooouuuuAAAAACEEEEIIIINOOOOOUUUU'
-    );
+    $map = [
+        'á'=>'a','à'=>'a','â'=>'a','ã'=>'a','ä'=>'a',
+        'é'=>'e','è'=>'e','ê'=>'e','ë'=>'e',
+        'í'=>'i','ì'=>'i','î'=>'i','ï'=>'i',
+        'ó'=>'o','ò'=>'o','ô'=>'o','õ'=>'o','ö'=>'o',
+        'ú'=>'u','ù'=>'u','û'=>'u','ü'=>'u',
+        'ç'=>'c',
+        'Á'=>'A','À'=>'A','Â'=>'A','Ã'=>'A','Ä'=>'A',
+        'É'=>'E','È'=>'E','Ê'=>'E','Ë'=>'E',
+        'Í'=>'I','Ì'=>'I','Î'=>'I','Ï'=>'I',
+        'Ó'=>'O','Ò'=>'O','Ô'=>'O','Õ'=>'O','Ö'=>'O',
+        'Ú'=>'U','Ù'=>'U','Û'=>'U','Ü'=>'U',
+        'Ç'=>'C',
+    ];
+    return strtr($string, $map);
 }
+
 
 $search = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);
 $page = filter_input(INPUT_GET, 'page', FILTER_VALIDATE_INT) ?: 1;
