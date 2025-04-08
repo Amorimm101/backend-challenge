@@ -11,7 +11,7 @@ $sort = filter_input(INPUT_GET, 'sort', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 if ($search) {
     $search = strtolower(trim($search));
     $products = array_filter($products, function($product) use ($search) {
-        return strpos(strtolower($product['name']), $search) !== false;
+        return preg_match('/' . preg_quote($search, '/') . '/i', $product['name']);
     });
     $products = array_values($products);
 }
