@@ -15,7 +15,7 @@ return [
     ["id" => 8, "name" => "Óculos de Sol", "description" => "Proteção UV400, armação leve", "amount" => 89.90, "image" => "$baseUrl/images/oculos.jpeg"],
     ["id" => 9, "name" => "Mochila Escolar", "description" => "Compartimento para notebook", "amount" => 139.90, "image" => "$baseUrl/images/mochila.jpeg"],
     ["id" => 10, "name" => "Chinelo Slide", "description" => "Confortável, ideal para o verão", "amount" => 34.90, "image" => "$baseUrl/images/chinelo.jpeg"],
-    ["id" => 11, "name" => "Camisa Social", "description" => "Algodão egípcio, manga longa", "amount" => 99.90, "image" => "$baseUrl/images/camisa-social.jpeg"],
+    ["id" => 11, "name" => "Camisa Social", "description" => "Algodão egípcio, manga longa", "amount" => 99.90, "image" => "$baseUrl/images/camiseta-social.jpeg"],
     ["id" => 12, "name" => "Bermuda Tactel", "description" => "Secagem rápida, bolsos laterais", "amount" => 64.90, "image" => "$baseUrl/images/bermuda.jpeg"],
     ["id" => 13, "name" => "Pulseira Fitness", "description" => "Monitora batimentos e passos", "amount" => 119.90, "image" => "$baseUrl/images/relogio.jpeg"],
     ["id" => 14, "name" => "Carteira Couro", "description" => "Várias divisórias, acabamento premium", "amount" => 79.90, "image" => "$baseUrl/images/carteira.jpeg"],
