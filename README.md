@@ -2,6 +2,10 @@
 
 Este é um projeto simples em PHP usando a biblioteca FastRoute para roteamento.
 
+Você pode hospedá-lo em um servidor docker, o arquivo Dockerfile está configurado.
+
+Ou você pode rodar ele localmente para testar. Segue tutorial:
+
 ## ✅ Requisitos
 
 - PHP 7.4 ou superior
