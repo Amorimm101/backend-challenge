@@ -20,9 +20,9 @@ return [
     ["id" => 13, "name" => "Pulseira Fitness", "description" => "Monitora batimentos e passos", "amount" => 119.90, "image" => "$baseUrl/images/relogio.jpeg"],
     ["id" => 14, "name" => "Carteira Couro", "description" => "Várias divisórias, acabamento premium", "amount" => 79.90, "image" => "$baseUrl/images/carteira.jpeg"],
     ["id" => 15, "name" => "Cinto de Couro", "description" => "Fivela metálica, cor marrom", "amount" => 69.90, "image" => "$baseUrl/images/cinto.jpeg"],
-    ["id" => 16, "name" => "Camiseta Estampada", "description" => "Estilo casual, malha leve", "amount" => 54.90, "image" => "$baseUrl/images/camisa-branca.jpeg"],
+    ["id" => 16, "name" => "Camiseta Estampada", "description" => "Estilo casual, malha leve", "amount" => 54.90, "image" => "$baseUrl/images/camiseta-branca.jpeg"],
     ["id" => 17, "name" => "Tênis Casual", "description" => "Design urbano, confortável", "amount" => 179.90, "image" => "$baseUrl/images/tenis.jpeg"],
     ["id" => 18, "name" => "Gorro de Lã", "description" => "Ideal para inverno, tamanho único", "amount" => 29.90, "image" => "$baseUrl/images/gorro.jpeg"],
     ["id" => 19, "name" => "Pochete Esportiva", "description" => "Compacta, com zíper resistente", "amount" => 44.90, "image" => "$baseUrl/images/pochete.jpeg"],
-    ["id" => 20, "name" => "Blusa Moletom", "description" => "Com capuz, felpada por dentro", "amount" => 134.90, "image" => "$baseUrl/images/camisa-branca.jpeg"],
+    ["id" => 20, "name" => "Blusa Moletom", "description" => "Com capuz, felpada por dentro", "amount" => 134.90, "image" => "$baseUrl/images/camiseta-branca.jpeg"],
 ];
